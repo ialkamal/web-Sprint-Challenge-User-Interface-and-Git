@@ -111,6 +111,8 @@ p {
     justify-content: center;
 }
 
+/* Style each box in the middle section differently */
+
 .middle-content .boxes .box1{
     background: teal;
 }
@@ -191,12 +193,19 @@ header{
     
 }
 
+/* Header Section Styling */
+
 header img{
     width: 20%;
 }
 
 header .nav-bar{
     width: 80%;   
+}
+
+header #jumbo-img{
+    width:100%;
+    margin: 2rem 0 0 0;
 }
 
 .nav-bar ul{
@@ -210,26 +219,21 @@ header .nav-bar{
     color: black;
 }
 
-#jumbo-img{
-    width:100%;
-    margin: 2rem 0 0 0;
-}
+/* Start of the styles for the about page */
 
+/* Section 1: about */
 .about{
     padding: 0 0 2rem 0;
     margin: 0 0 1rem 0;
     border-bottom: 1px dashed black;
 }
 
-.about-button{
-    text-decoration: none;
-    color: black;
-    padding: .5rem 1rem;
-    border: 2px solid black;
-    margin: 1rem 0;
-    border-radius: 10%;
+.about .top-div{
+    width: 95%;
+    margin: 0 auto;
 }
 
+/* Section 2: what-we-do */
 .what-we-do{
     display: flex;
     width: 95%;
@@ -238,7 +242,7 @@ header .nav-bar{
     justify-content: space-between;
 }
 
-.about-block{
+.what-we-do .about-block{
     border-bottom: 1px dashed black;
     width: 47%;
 
@@ -247,12 +251,22 @@ header .nav-bar{
     align-items: flex-start;
 }
 
-.about-block img{
+.what-we-do .about-block img{
     margin: 1rem 0;
     width: 100%;
     object-fit: contain;
 }
 
+.what-we-do .about-block .about-button{
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1rem;
+    border: 2px solid black;
+    margin: 1rem 0;
+    border-radius: 10%;
+}
+
+/* Section 3: end-section */
 .end-section{
     margin: 3rem 0;
 }
@@ -262,7 +276,4 @@ header .nav-bar{
     margin: 0 auto;
 }
 
-.about .top-div{
-    width: 95%;
-    margin: 0 auto;
-}
+/* End of the styles for the about page */
