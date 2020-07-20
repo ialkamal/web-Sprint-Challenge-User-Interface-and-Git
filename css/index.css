@@ -104,12 +104,49 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background: gold;
+}
+
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background: coral;
+}
+
+.middle-content .boxes .box5{
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background: indigo;
+}
+
+.middle-content .boxes .box10{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +180,89 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    width: 100%;
+    margin: 2rem 0;
+    
+}
+
+header img{
+    width: 20%;
+}
+
+header .nav-bar{
+    width: 80%;   
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+
+#jumbo-img{
+    width:100%;
+    margin: 2rem 0 0 0;
+}
+
+.about{
+    padding: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-button{
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1rem;
+    border: 2px solid black;
+    margin: 1rem 0;
+    border-radius: 10%;
+}
+
+.what-we-do{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-block{
+    border-bottom: 1px dashed black;
+    width: 47%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.about-block img{
+    margin: 1rem 0;
+    width: 100%;
+    object-fit: contain;
+}
+
+.end-section{
+    margin: 3rem 0;
+}
+
+.end-section .end-div{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about .top-div{
+    width: 95%;
+    margin: 0 auto;
 }
